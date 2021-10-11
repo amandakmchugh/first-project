@@ -8,11 +8,30 @@
       font-family: Georgia, serif;
       background-color: #c2f7ff;
     }
+    img {
+      max-width: 100%;
+    }
     h1 {
       font-family: sans-serif;
     }
     figcaption {
       color: grey;
+    }
+    div.img-list-item {
+      border: 1px solid gray;
+      margin: 10px;
+      Flex: 40%;
+      flex-grow: 1
+    }
+    @media (max-width: 800px) {
+      div.img-list-item {
+        flex: 100%;
+      }
+    }
+    div.img-list {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row
     }
     </style>
   </head>
@@ -22,11 +41,61 @@
     <img src="images/fancy cat tea.jpg" alt="fancy cat pouring tea"><figcaption> A Fancy Cat Pours Tea</figcaption>
   </figure>
   <p>Ever wonder where Earl Grey actually comes from? You'll be surprised who exports the most tea after you check out the list down below.</p>
-  <p>1. China</p>
-  <p>2. India</p>
-  <p>3. Kenya</p>
-  <p>4. Sri Lanka</p>
-  <p>5. Turkey</p>
+<div class="img-list">
+  <div class="img-list-item">
+    <h3>text</h3>
+    <div class="image-list-text">
+      <h3>1. China</h3>
+      <p>test</p>
+    </div>
+    <figure>
+        <img src="images/China tea.jpg" alt="Tea from China.">
+        <figcaption>Tea from China.</figcaption>
+      </figure>
+    </div>
+    <div class="img-list-item">
+      <div class="image-list-text">
+        <h3>2. India</h3>
+        <p>test</p>
+      </div>
+      <figure>
+          <img src="images/India tea.jpg" alt="Tea from India.">
+          <figcaption>Tea from India.</figcaption>
+        </figure>
+      </div>
+      <p>jbk.kjnlMl,.</P
+      <div class="img-list-item">
+        <div class="image-list-text">
+          <h3>3. Kenya</h3>
+          <p>test</p>
+        </div>
+        <figure>
+            <img src="images/Kenya tea.jpg" alt="Tea from Kenya.">
+            <figcaption>Tea from Kenya.</figcaption>
+          </figure>
+        </div>
+        <div class="img-list-item">
+          <div class="image-list-text">
+            <h3>4. Sri Lanka</h3>
+            <p>test</p>
+          </div>
+          <p>fktfv,hjbkhb</p>
+          <figure>
+              <img src="images/Sri Lanka tea.jpg" alt="Tea from Sri Lanka.">
+              <figcaption>Tea from Sri Lanka.</figcaption>
+            </figure>
+          </div>
+          <div class="img-list-item">
+            <div class="image-list-text">
+              <h3>5. Turkey</h3>
+              <p>test</p>
+            </div>
+            <figure>
+                <img src="images/Turkey tea.jpg" alt="Tea from Turkey.">
+                <figcaption>Tea from Turkey.</figcaption>
+              </figure>
+            </div>
+</div>
   <a href="https://farrerscoffee.co.uk/top-10-tea-producing-countries-in-the-world-2020/">Source Link Here</a>
   <!--header, image, list, source information!>
 
